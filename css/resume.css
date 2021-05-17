@@ -35,7 +35,9 @@ h2 {
 h3 {
   font-size: 2rem;
 }
-
+h5 {
+    color: #FFFFFF;
+}
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -183,4 +185,19 @@ a {
 
 a:hover, a:focus, a:active {
   color: #605072;
+}
+
+.carousel {
+    width: auto;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
 }
